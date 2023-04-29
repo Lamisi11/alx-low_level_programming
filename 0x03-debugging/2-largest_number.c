@@ -8,14 +8,14 @@
 
 int main(void)
 {
-	int i, j, k;
+	int a, b, c;
 	int largest;
 
-	i = 972;
-	j = -98;
-	k = 0;
+	a = 972;
+	b = -98;
+	c = 0;
 
-	largest = largest_number(i, j, k);
+	largest = largest_number(a, b, c);
 
 	printf("%d is the largest number\n", largest);
 
